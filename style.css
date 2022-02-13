@@ -46,6 +46,7 @@ ul {
 }
 .herotext {
     font-size:12px;
+    margin: 6px 0;
 }
 img {
     transform:scaleX(-1);
@@ -69,7 +70,7 @@ button {
 .topmid {
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     padding:25px 200px 50px;
     margin:0;
