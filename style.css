@@ -63,13 +63,61 @@ button {
 .headertwo {
     font-size: 24px;
     font-weight: bolder;
+    text-align: center;
+    margin-top:25px;
+}
+.topmid {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:25px 200px 50px;
+    margin:0;
+    gap:30px;
+}
+.ramen {
+    display: flex;
+    flex-direction: column;
+}
+.des {
+    max-width:150px;
+    font-size:16px;
+    text-align: center;
+    font-weight:lighter;
+}
+.card {
+    object-fit: cover;
+    width:150px;
+    height:150px;
+    border:4px solid #3882F6;
+    border-radius: 6px;
+}
+.bottommid {
+    display:flex;
+    background-color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:40px 200px;
+    gap:0;
+}
+.quote {
+    font-size:24px;
+    color:#1F2937;
+    font-weight:10;
+    margin-bottom: 0;
+}
+.thor {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 0;
 }
 .bottom {
     display:flex;
     justify-content: space-between;
     align-items: center;
     background-color:#3882F6;
-    margin: 0 100px;
+    margin: 50px 100px;
     padding:30px;
     border-radius: 8px;
 }
