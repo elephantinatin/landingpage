@@ -1,0 +1,104 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;
+    padding:0;
+    margin:0;
+}
+.title {
+    font-weight:900;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 100px;
+    background-color: #1F2937;
+    color: white;
+    flex-grow: 1;
+    max-height:50px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size:12px;
+    gap:16px;
+}
+.top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 100px;
+    background-color: #1F2937;
+    color: white;
+    flex-grow: 1;
+    max-height:200px;
+}
+.toptext {
+    max-width: 320px;
+}
+.hero {
+    font-size:36px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+.herotext {
+    font-size:12px;
+}
+img {
+    transform:scaleX(-1);
+}
+button {
+    background-color: #3882F6;
+    padding:6px 24px;
+    font-size:11px;
+    font-weight:bold;
+    color:white;
+    border:none;
+    border-radius: 6px;
+    margin-top:8px;
+}
+.headertwo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.bottom {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3882F6;
+    margin: 0 100px;
+    padding:30px;
+    border-radius: 8px;
+}
+.bottomtext {
+    display:flex;
+    justify-content: center;
+    color:white;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size:12px;
+    margin-left:40px;
+}
+.call {
+    font-size:14px;
+    font-weight: bold;
+}
+.bottombutton {
+   border: 1px solid white;
+    margin-right:40px;
+}
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:24px 100px;
+    font-size:12px;
+    background-color: #1F2937;
+    color: white;
+    max-height:25px;
+    flex-grow: 1;
+}
